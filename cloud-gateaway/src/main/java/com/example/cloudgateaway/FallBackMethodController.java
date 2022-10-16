@@ -4,6 +4,7 @@ package com.example.cloudgateaway;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+//ce controller ne fonctionne pas
 @RestController
 public class FallBackMethodController {
     @GetMapping("/userServiceFallBack")
